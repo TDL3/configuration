@@ -10,6 +10,7 @@ alias gitu='git add . && git commit && git push'
 alias gap='git add -p'
 alias gce='git commit --amend'
 alias gss='git status'
+alias gsig='git log --show-signature'
 
 alias ls='ls --color=auto'
 alias grep='grep --colour=auto'
