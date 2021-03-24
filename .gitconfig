@@ -1,0 +1,12 @@
+[http]
+	proxy = http://127.0.0.1:7890/
+[https]
+	proxy = http://127.0.0.1:7890/
+[user]
+	email = 29535697+TDL3@users.noreply.github.com
+	name = TDL3
+	signingkey = 5BE47B5805347F94
+[credential]
+	helper = store
+[core]
+	autocrlf = input

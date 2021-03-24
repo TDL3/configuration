@@ -1,0 +1,58 @@
+#
+# Format
+#
+# -f 'bestvideo+bestaudio/best'
+# Tailored for YouTube
+-f 'bestvideo[ext=webm]+bestaudio/bestvideo+bestaudio/best'
+ 
+#
+# Downloader
+#
+--external-downloader aria2c
+#
+# -x The maximum number of connections to one server for each download.
+# -s N Download a file using N connections
+# -k Minimum file split size
+#
+--external-downloader-args "-x 16 -s 16 -k 1M --file-allocation=none"
+
+#
+# Path
+#
+-o '~/Documents/youtube-dl/%(title)s (%(id)s).%(ext)s'
+
+#
+# Subtitle
+#
+# --write-sub
+# --write-auto-sub
+# --all-subs flag must be set for subtitle embing to work
+--all-subs
+# --sub-format vtt
+# --sub-lang LANGS
+
+#
+# Embed
+#
+--add-metadata
+--embed-subs
+# --embed-thumbnail
+--merge-output-format mkv
+
+#
+# Misc
+#
+--proxy 127.0.0.1:7890
+
+# --download-archive ytdl-archive.txt
+
+# Do not copy the mtime
+--no-mtime
+
+--ignore-errors
+# --abort-on-error
+
+--yes-playlist
+# --no-playlist
+
+# --write-description
