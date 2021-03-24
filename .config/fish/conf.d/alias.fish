@@ -1,5 +1,3 @@
-# alias npm="npm --registry=https://registry.npm.taobao.org"
-
 alias cp='cp -i'
 alias df='df -h' 
 alias free='free -h --giga' 
@@ -21,6 +19,4 @@ alias ll='ls -lF'
 alias la='ls -AF'
 alias lsa='ls -alF'
 alias open='nautilus --new-window'
-alias ydl='youtube-dl'
-alias vi='nvim'
-# alias curl='curl --proxy $http_proxy'
+alias vim='nvim'
