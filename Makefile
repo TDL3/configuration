@@ -28,5 +28,11 @@ docker:
 youtube-dl:
 	eval $(call make_symbolic_link,config/youtube-dl/config)
 
-pacman:
+pacman-write:
 	 pacman -Qqet > Pacmanfile && less Pacmanfile
+	 
+pacman-install:
+	 yay -S --needed - < Pacmanfile
+
+manjaro-browser-tweak:
+	sudo pacman -Rs manjaro-browser-settings
