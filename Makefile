@@ -34,5 +34,5 @@ pacman-write:
 pacman-install:
 	 yay -S --needed - < Pacmanfile
 
-manjaro-browser-tweak:
+remove-manjaro-browser-settings:
 	sudo pacman -Rs manjaro-browser-settings
