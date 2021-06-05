@@ -1,4 +1,4 @@
-all: wget curl git npm fish docker youtube-dl
+all: wget curl git npm fish youtube-dl
 
 base_dir = ~/
 make_symbolic_link = ln -rfs ./.$(1) $(base_dir).$(1)
