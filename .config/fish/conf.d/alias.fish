@@ -4,10 +4,10 @@ alias free='free -h --giga'
 #
 # git
 #
-alias gitu='git add . && git commit && git push'
-alias gap='git add -p'
-alias gce='git commit --amend'
-alias gss='git status'
+alias gc="git commit"
+alias gap="git add -p"
+alias gs="git status"
+alias gl="git log --pretty=format:\"%h - %an, %ar : %s\""
 alias gsig='git log --show-signature'
 
 alias ls='ls --color=auto'
