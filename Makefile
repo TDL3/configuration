@@ -9,7 +9,6 @@ git:
 	
 fish:
 	eval $(call make_symbolic_link,config/fish/conf.d/alias.fish)
-	eval $(call make_symbolic_link,config/fish/conf.d/omf.fish)
 	eval $(call make_symbolic_link,config/fish/conf.d/update.fish)
 	
 pacman-write:
