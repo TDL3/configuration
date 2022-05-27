@@ -20,10 +20,10 @@ alias vim='nvim'
 alias python='python3'
 
 ### windows ###
-alias cdd='cd /mnt/d/Download'
+alias cdd='cd /mnt/d/Downloads'
 alias cdh='cd ~'
 alias fd='fdfind'
-
+alias open='explorer.exe'
 function nvencode
     /mnt/d/Program\ Files/cli/NVEncode/NVEncC64.exe $argv
 end
