@@ -16,10 +16,10 @@ function upp
     end
 
     if set -q _flag_pacman
-        green "[Info] Updating system using pacman"
+         green_echo "[Info] Updating system using pacman"
         sudo pacman -Syu
     else
-        green "[Info] Updating system using Pamac"
+         green_echo "[Info] Updating system using Pamac"
         pamac checkupdates --no-aur
         # Exit code is 100 if updates are available according to man page.
         if test $status -eq 100
@@ -30,10 +30,10 @@ function upp
 end
 
 function update_aur
-    green "[Info] Updating AUR packages using yay"
+     green_echo "[Info] Updating AUR packages using yay"
         yay -Sua --answerclean All --answerdiff None
 end
 
-function green
+function green_echo
     echo (set_color green)$argv(set_color normal)
 end
