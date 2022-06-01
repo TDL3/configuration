@@ -1,13 +1,26 @@
-### Format ###
+# youtube opus audio with thumbnail as artwork cover
+yt-dlp --convert-thumbnails png --no write-subs --embed-thumbnail -f bestaudio --audio-format opus -x "url"
+#
+# Format
+#
 # -f 'bestvideo+bestaudio/best'
 # Tailored for YouTube
 -f 'bestvideo[ext=webm]+bestaudio/bestvideo+bestaudio/best'
 
-### Path ###
-# -o '~/yt-dlp/%(title)s (%(id)s).%(ext)s'
--o '/mnt/d/Downloads/yt-dlp/%(title)s (%(id)s).%(ext)s'
+#
+# Downloader
+#
+--external-downloader aria2c
+#
 
-### Subtitle ###
+#
+# Path
+#
+-o '/mnt/d/Downloads/yt-dlp/%(title)s.%(ext)s'
+
+#
+# Subtitle
+#
 # --write-sub
 # --write-auto-sub
 # --all-subs flag must be set for subtitle embing to work
@@ -15,22 +28,24 @@
 # --sub-format vtt
 # --sub-lang LANGS
 
-### Embeding ###
+#
+# Embed
+#
 --add-metadata
 --embed-subs
 # --embed-thumbnail
-# --write-description
 --merge-output-format mkv
 
-### Misc ###
+
 # --download-archive ytdl-archive.txt
 
 # Do not copy the mtime
 --no-mtime
 
 --ignore-errors
+# --abort-on-error
 
 # --yes-playlist
 --no-playlist
 
---external-downloader aria2c
+# --write-description
