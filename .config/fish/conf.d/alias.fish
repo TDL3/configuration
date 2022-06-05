@@ -16,5 +16,4 @@ abbr -ag gds 'git diff --stat'
 
 
 alias vim 'nvim'
-alias python 'python3'
 alias brewup 'brew update && and brew upgrade --all && and brew cleanup && and brew prune'
