@@ -25,6 +25,7 @@ yt-dlp:
 	
 aria2:
 	@mkdir -p ~/$(aria2_dir)
+	@echo "" > ~/$(aria2_dir)/aria2.session
 	cp -f $(aria2_dir)/aria2.conf ~/$(aria2_dir)	 
 	
 	

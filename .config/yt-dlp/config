@@ -1,5 +1,3 @@
-# youtube opus audio with thumbnail as artwork cover
-yt-dlp --convert-thumbnails png --no write-subs --embed-thumbnail -f bestaudio --audio-format opus -x "url"
 #
 # Format
 #
