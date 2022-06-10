@@ -1,6 +1,6 @@
 ### unix ###
 alias free 'free -h --giga'
-alias ls 'ls -Fh'
+alias ls 'ls -Fh --color=always'
 abbr tarcreate 'tar -czvf'
 abbr tarlist 'tar -ztvf'
 abbr untar 'tar -xzvf'
