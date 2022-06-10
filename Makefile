@@ -18,7 +18,7 @@ neovim:
 	cp -f $(nvim_dir)/init.vim  ~/$(nvim_dir)/init.vim
 	
 xmonad:
-	@mk_ir -p ~/$(xmonad_dir)
+	@mkdir -p ~/$(xmonad_dir)
 	cp -f $(xmonad_dir)/.xmonad.hs ~/$(xmonad_dir)
 	
 yt-dlp:
