@@ -35,7 +35,8 @@ aria2:
 clean:
 	rm -f ~/$(fish_dir)/alias.fish
 	rm -f ~/$(fish_dir)/yt-dlp.fish	
-	rm -f ~/$(fish_dir)/truecolor.fish	
+	rm -f ~/$(fish_dir)/truecolor.fish
+	rm -f ~/$(fish_dir)/git.fish	
 	rm -f ~/$(nvim_dir)/nvim/init.vim
 	rm -f ~/$(xmonad_dir)/.xmonad.hs
 	rm -f ~/$(yt-dlp_dir)/config
