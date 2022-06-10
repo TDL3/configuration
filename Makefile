@@ -9,9 +9,10 @@ aria2_dir := .aria2
 	
 fish:
 	@mkdir -p ~/$(fish_dir)
-	cp -f $(fish_dir)/alias.fish  ~/$(fish_dir)/alias.fish	
-	cp -f $(fish_dir)/yt-dlp.fish  ~/$(fish_dir)/yt-dlp.fish	
-	cp -f $(fish_dir)/truecolor.fish  ~/$(fish_dir)/truecolor.fish	
+	cp -f $(fish_dir)/alias.fish  ~/$(fish_dir)/alias.fish
+	cp -f $(fish_dir)/yt-dlp.fish  ~/$(fish_dir)/yt-dlp.fish
+	cp -f $(fish_dir)/git.fish  ~/$(fish_dir)/git.fish
+	cp -f $(fish_dir)/truecolor.fish  ~/$(fish_dir)/truecolor.fish
 	
 neovim:
 	@mkdir -p ~/$(nvim_dir)
