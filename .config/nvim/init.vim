@@ -6,7 +6,6 @@ set ai
 set number
 set hlsearch
 set ruler
-set termguicolors
 highlight Comment ctermfg=green
 
 " Ctrl-S to save
