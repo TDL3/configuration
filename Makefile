@@ -5,7 +5,7 @@ fish_dir := .config/fish/conf.d
 nvim_dir := .config/nvim
 xmonad_dir := .config/xmonad
 yt-dlp_dir := .config/yt-dlp
-aria2_dir := .aria2
+aria2_dir := .config/aria2
 	
 fish:
 	@mkdir -p ~/$(fish_dir)
