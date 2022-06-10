@@ -10,6 +10,8 @@ aria2_dir := .aria2
 fish:
 	@mkdir -p ~/$(fish_dir)
 	cp -f $(fish_dir)/alias.fish  ~/$(fish_dir)/alias.fish	
+	cp -f $(fish_dir)/yt-dlp.fish  ~/$(fish_dir)/yt-dlp.fish	
+	cp -f $(fish_dir)/truecolor.fish  ~/$(fish_dir)/truecolor.fish	
 	
 neovim:
 	@mkdir -p ~/$(nvim_dir)
@@ -31,6 +33,8 @@ aria2:
 	
 clean:
 	rm -f ~/$(fish_dir)/alias.fish
+	rm -f ~/$(fish_dir)/yt-dlp.fish	
+	rm -f ~/$(fish_dir)/truecolor.fish	
 	rm -f ~/$(nvim_dir)/nvim/init.vim
 	rm -f ~/$(xmonad_dir)/.xmonad.hs
 	rm -f ~/$(yt-dlp_dir)/config
