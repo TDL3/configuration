@@ -16,4 +16,4 @@ abbr -ag gds 'git diff --stat'
 
 
 alias vim 'nvim'
-alias brewup 'brew update && and brew upgrade --all && and brew cleanup && and brew prune'
+alias brewup 'brew update; and brew upgrade; and brew cleanup --prune=7'
