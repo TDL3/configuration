@@ -1,7 +1,7 @@
 #!/usr/bin/env fish
 
 function truecolor
-  awk -v term_cols=$(tput cols || echo 80) 'BEGIN{
+  awk -v term_cols=(tput cols || echo 80) 'BEGIN{
       s="  ";
       for (colnum = 0; colnum<term_cols; colnum++) {
           r = 255-(colnum*255/term_cols);
