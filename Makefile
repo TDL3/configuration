@@ -31,6 +31,8 @@ aria2:
 	@echo "" > ~/$(aria2_dir)/aria2.session
 	cp -f $(aria2_dir)/aria2.conf ~/$(aria2_dir)	 
 	
+tmux:
+	cp -f .tumux.conf ~/
 	
 clean:
 	rm -f ~/$(fish_dir)/alias.fish
@@ -41,3 +43,5 @@ clean:
 	rm -f ~/$(xmonad_dir)/.xmonad.hs
 	rm -f ~/$(yt-dlp_dir)/config
 	rm -f ~/$(aria2_dir)/aria2.conf
+	rm -f ~/.tmux.conf
+	
