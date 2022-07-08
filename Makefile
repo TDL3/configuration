@@ -1,5 +1,5 @@
 .PHONY: all fish neovim yt-dlp aria2 xmonad clean
-all: fish neovim yt-dlp aria2
+all: fish neovim yt-dlp aria2 tmux
 
 fish_dir := .config/fish/conf.d
 nvim_dir := .config/nvim
@@ -35,7 +35,7 @@ aria2:
 	cp -f $(aria2_dir)/aria2.conf ~/$(aria2_dir)	 
 
 tmux:
-	cp -f .tumux.conf ~/
+	cp -f .tmux.conf ~/
 
 clean:
 	rm -f ~/$(fish_dir)/alias.fish
