@@ -14,7 +14,7 @@ fish:
 	cp -f $(fish_dir)/git.fish  ~/$(fish_dir)/git.fish
 	cp -f $(fish_dir)/truecolor.fish  ~/$(fish_dir)/truecolor.fish
 
- omf:
+omf:
 	curl https://raw.githubusercontent.com/oh-my-fish/oh-my-fish/master/bin/install | fish
 
 neovim:
@@ -37,6 +37,9 @@ aria2:
 tmux:
 	cp -f .tmux.conf ~/
 
+git:
+	cp -f .gitconfig ~/
+
 clean:
 	rm -f ~/$(fish_dir)/alias.fish
 	rm -f ~/$(fish_dir)/yt-dlp.fish	
@@ -47,3 +50,4 @@ clean:
 	rm -f ~/$(yt-dlp_dir)/config
 	rm -f ~/$(aria2_dir)/aria2.conf
 	rm -f ~/.tmux.conf
+	rm -f ~/.gitconfig
