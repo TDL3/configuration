@@ -1,4 +1,4 @@
-set -x GPG_TTY=(tty)
+set -x GPG_TTY (tty)
 abbr -ag gs 'git status -b'
 abbr -ag gc 'git commit -v -S'
 abbr -ag gca 'git commit -v -a -S'
