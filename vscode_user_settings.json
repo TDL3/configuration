@@ -7,6 +7,6 @@
     "editor.fontFamily": "Oxygen Mono",
     "editor.largeFileOptimizations": true,
     "editor.tokenColorCustomizations": {
-        "comments": "#69ff94"
+        "comments": "#98c379"
     }
 }
