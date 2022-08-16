@@ -1,0 +1,12 @@
+{
+    "workbench.colorTheme": "Atom One Dark",
+    "workbench.iconTheme": "material-icon-theme",
+    "extensions.ignoreRecommendations": true,
+    "editor.fontSize": 15,
+    "explorer.confirmDelete": false,
+    "editor.fontFamily": "Oxygen Mono",
+    "editor.largeFileOptimizations": true,
+    "editor.tokenColorCustomizations": {
+        "comments": "#69ff94"
+    }
+}
