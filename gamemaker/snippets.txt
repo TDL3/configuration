@@ -1,0 +1,2 @@
+K - Keyboard Debug:if keyboard_check_pressed(vk_escape) game_end();$if keyboard_check_pressed(vk_f5) game_restart();
+F - For:for (var i = 0; i < |condition|; i++) {$    $}$
