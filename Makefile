@@ -14,6 +14,9 @@ fish:
 	cp -f $(fish_dir)/git.fish  ~/$(fish_dir)/git.fish
 	cp -f $(fish_dir)/truecolor.fish  ~/$(fish_dir)/truecolor.fish
 
+fish-wsl:
+	cp -f $(fish_dir)/wsl.fish  ~/$(fish_dir)/wsl.fish
+
 omf:
 	curl https://raw.githubusercontent.com/oh-my-fish/oh-my-fish/master/bin/install | fish
 
@@ -45,6 +48,7 @@ clean:
 	rm -f ~/$(fish_dir)/yt-dlp.fish	
 	rm -f ~/$(fish_dir)/truecolor.fish
 	rm -f ~/$(fish_dir)/git.fish	
+	rm -f ~/$(fish_dir)/wsl.fish	
 	rm -f ~/$(nvim_dir)/nvim/init.vim
 	rm -f ~/$(xmonad_dir)/.xmonad.hs
 	rm -f ~/$(yt-dlp_dir)/config
