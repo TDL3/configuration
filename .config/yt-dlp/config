@@ -3,7 +3,7 @@
 
 
 --external-downloader aria2c
--o '/mnt/e/Downloads/yt-dlp/%(title)s.%(ext)s'
+-o '/mnt/e/Downloads/%(title)s.%(ext)s'
 
 
 # --write-sub
