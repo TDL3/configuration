@@ -6,7 +6,7 @@ alias fd 'fdfind'
 alias open 'explorer.exe'
 
 function nvencode
-  /mnt/e/Program\ Files/cli/NVEncode/NVEncC64.exe $argv
+  /mnt/d/Program\ Files/cli/NVEncode/NVEncC64.exe $argv
 end
 
 set -x rootdir "/mnt/c/WINDOWS/system32"
